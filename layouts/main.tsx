@@ -14,7 +14,7 @@ export default function MainLayout({ children }: Props) {
   const { route } = useRouter();
   return (
     <div className="relative bg-stone-900">
-      {route === "/" ? <></> : <Navbar />}
+      <Navbar />
       <Toaster />
       <div className="mx-auto bg-stone-900">{children}</div>
       <Overlay isVisible={isLoading} />

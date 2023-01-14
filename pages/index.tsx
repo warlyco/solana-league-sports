@@ -26,7 +26,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex justify-center items-end bg-stone-900 max-h-screen min-h-screen relative text-blue-400 overflow-hidden">
+    <div className="flex justify-center items-end bg-stone-900 min-h-screen relative overflow-hidden">
       <Head>
         <title>Solana League Sports</title>
         {/* <link
@@ -51,42 +51,12 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" /> */}
       </Head>
-      <div className="absolute h-screen w-screen top-0 bottom-0 right-0 left-0 overflow-hidden text-stone-900">
-        <div className="absolute bottom-[15%] right-[50%] z-10 -mr-[90px] text-6xl">
-          sports go sports!
-          {/* <Image
-            src="/images/warlyco-logo-white-on-transparent.svg"
-            alt="warlyco-logo-white-on-transparent"
-            width={180}
-            height={180}
-          /> */}
-        </div>
-      </div>
       <div className="absolute bottom-0 w-full text-center border border-blue-400">
         <div className="flex items-center justify-center text-4xl font-bold uppercase opacity-85 tracking-widest leading-8 py-1 text-slate-300">
           <div className="mr-2">i am at the center bottom</div>
         </div>
       </div>
-      <a
-        rel="noreferrer"
-        href="https://discord.gg/PH4GgHJHef"
-        target="_blank"
-        className="absolute top-0 w-full text-center border border-blue-400 hover:bg-gradient-to-l hover:from-cyan-500 hover:to-pink-500 min-h-[40px]"
-      >
-        <div className="text-4xl font-bold uppercase opacity-85 tracking-widest leading-8 rotate-180 py-1 text-slate-300">
-          discord
-        </div>
-      </a>
-      <a
-        href="//twitter.com/warlyco"
-        target="_blank"
-        className="absolute flex flex-col justify-center left-0 h-screen border border-blue-400 hover:bg-gradient-to-b hover:from-pink-500 hover:to-yellow-500 min-h-[40px]"
-        rel="noreferrer"
-      >
-        <div className="w-full text-4xl font-bold uppercase opacity-85 tracking-widest left-is-bottom-text leading-8 px-1 text-slate-300">
-          twitter
-        </div>
-      </a>
+
       <style jsx>{`
         html,
         body {
