@@ -26,7 +26,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex justify-center items-end bg-stone-900 min-h-screen relative overflow-hidden">
+    <div className="flex justify-center items-center bg-stone-800 min-h-screen relative overflow-hidden">
       <Head>
         <title>Solana League Sports</title>
         {/* <link
@@ -51,8 +51,26 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" /> */}
       </Head>
-      <div className="absolute bottom-0 w-full text-center border-t border-t-slate-600 py-2">
-        <div className="flex items-center justify-center text-4xl font-bold uppercase opacity-85 tracking-widest leading-8 py-1 text-slate-300 italic">
+      <div className="px-4 hidden lg:block max-w-6xl">
+        <Image
+          className="rounded-lg shadow-deep"
+          src="/images/banner-2.png"
+          width={1500}
+          height={500}
+          alt="Solana League Sports"
+        />
+      </div>
+      <Image
+        className="rounded-lg shadow-deep lg:hidden"
+        src="/images/sls-logo.png"
+        width={450}
+        height={450}
+        alt="Solana League Sports"
+      />
+      {/* <div className="">
+      </div> */}
+      <div className="absolute bottom-0 w-full text-center border-t border-t-stone-900 py-2">
+        <div className="flex items-center justify-center text-2xl font-bold uppercase opacity-85 tracking-widest leading-8 py-1 text-stone-300 italic">
           <div className="mr-2">coming soon</div>
         </div>
       </div>
