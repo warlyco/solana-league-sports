@@ -51,9 +51,9 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" /> */}
       </Head>
-      <div className="absolute bottom-0 w-full text-center border border-blue-400">
-        <div className="flex items-center justify-center text-4xl font-bold uppercase opacity-85 tracking-widest leading-8 py-1 text-slate-300">
-          <div className="mr-2">i am at the center bottom</div>
+      <div className="absolute bottom-0 w-full text-center border-t border-t-slate-600 py-2">
+        <div className="flex items-center justify-center text-4xl font-bold uppercase opacity-85 tracking-widest leading-8 py-1 text-slate-300 italic">
+          <div className="mr-2">coming soon</div>
         </div>
       </div>
 
